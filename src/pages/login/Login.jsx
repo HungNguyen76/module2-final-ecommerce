@@ -8,7 +8,7 @@ export const Login = () => {
   const dispatch = useDispatch()
   const handleSubmit = (e) => {
     e.preventDefault()
-    dispatch(authActions.login())
+    dispatch(authActions.login());
   }
   return (
     <>
